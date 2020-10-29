@@ -1,0 +1,155 @@
+
+<!DOCTYPE.html>
+<head>
+<title></title>
+<style>
+
+*{margin: 0;padding: 0;
+box-sizing: border-box; background: #e7ecf0;
+}
+
+.maindiv
+{
+width:82%; 
+height:90%; 
+margin: 60px auto;
+background-color:#fff;}
+
+.subdiv
+{
+background-color:#fff;
+width:85%;
+height:68%;
+margin:10px auto;
+padding-top: 5px;
+}
+
+
+h2
+{
+background-color:#fff;
+font-family: verdana;
+font-size: 110%;
+color: darkblue;
+}
+
+.supersubdiv
+{
+font-family: verdana;
+font-size: 90%;
+color: black;
+height:45px;
+background-color:#f2f2f2;
+padding-top: 8px;
+}
+
+.supersubdiv2
+{
+background-color:#fff;
+font-family: verdana;
+font-size: 90%;
+color: powderblue;
+height:45px;
+padding-top: 8px;
+}
+
+.outerdiv
+{
+background-color:#fff;
+}
+
+h4
+{
+background-color:#fff;
+font-family: verdana;
+font-size: 110%;
+color: darkblue;
+text-align: center;
+}
+
+.eqi-container 
+{
+  background-color:#fff;
+  display: flex;
+  justify-content: space-between;
+  width:85%;
+  margin:auto;
+  padding-top:10px;
+  padding-left:220px;
+}
+.eqi-container div {
+  width: 150px;
+  height: 70px;
+  background: darkblue;
+  padding-top: 22px;
+}
+
+h3
+{
+color: white;
+background: darkblue;
+font-size:105%;
+text-align: center;
+}
+
+.equaldabba
+{
+  background-color:#fff;
+  display:flex;
+  justify-content: space-between;
+  margin:auto;
+  padding-top:18px;
+  padding-left:150px;
+  padding-right:150px;
+ }
+
+.equaldabba div
+{
+background: #fff;}
+</style>
+<head>
+<body>
+
+<main>
+<div class="maindiv">
+
+<div class="eqi-container">
+  <div><h3>Admin</h3><img src="https://imgur.com/tETIt4J.jpg" style="height:26px; width:30px; float: right;"></div>
+  <div><h3>Clinician</h3><img src="https://imgur.com/tETIt4J.jpg" style="height:26px; width:30px; float: right;"></div>
+  <div><h3>Pathologist</h3><img src="https://imgur.com/tETIt4J.jpg" style="height:26px; width:30px; float: right;"></div>
+  <div><h3>Lab Technician</h3><img src="https://imgur.com/tETIt4J.jpg" style="height:26px; width:30px; float: right;"></div>
+</div>
+
+<div class="subdiv"><h2>Special Features</h2><hr>
+
+<div class="supersubdiv">User Management</div>
+<div class="supersubdiv2">Role Management</div>
+<div class="supersubdiv">Sharing & Comm</div>
+<div class="supersubdiv2">Profile Setting</div>
+<div class="supersubdiv">Report Review</div>
+<div class="supersubdiv2">Report View</div>
+<div class="supersubdiv">Dashboard</div>
+<div class="supersubdiv2">Image Edit</div>
+<div class="supersubdiv">Image View</div>
+
+</div>
+<hr>
+
+
+<div class="outerdiv">
+<h4>
+Common Features
+</h4>
+<div class="equaldabba">
+<div>Help center</div>
+<div>Contact Us</div>
+<div>Notifications</div>
+<div>Profile Setting</div>
+<div>Login Management</div>
+</div>
+</div>
+
+
+</main>
+</body>
+</html>
